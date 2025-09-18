@@ -4,7 +4,6 @@ import { Phone, Mail, MapPin, MessageCircle, Calendar } from "lucide-react";
 const Contact = () => {
   const whatsappMessage = encodeURIComponent(
     "Hi Prashant sir"
-     "I want to Query Regarding classes"
   );
 
   return (
