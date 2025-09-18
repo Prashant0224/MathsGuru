@@ -3,7 +3,8 @@ import { Phone, Mail, MapPin, MessageCircle, Calendar } from "lucide-react";
 
 const Contact = () => {
   const whatsappMessage = encodeURIComponent(
-    "Hi Prashant sir"
+    "Hi Prashant sir
+     I want to Query Regarding classes"
   );
 
   return (
@@ -44,7 +45,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-700">litoriyaprashant4@email.com</p>
+                  <p className="text-gray-700">litoriyaprashant4@gmail.com</p>
                 </div>
               </div>
 
