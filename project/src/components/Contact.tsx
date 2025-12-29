@@ -114,11 +114,12 @@ const Contact = () => {
           <div className="bg-white p-2 rounded-2xl shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3679.854172382595!2d75.8825241753052!3d22.733660979377355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ0JzAxLjIiTiA3NcKwNTMnMDYuNCJF!5e0!3m2!1sen!2sin!4v1757827977097!5m2!1sen!2sin"
-              width="600"
-              height="650"
+              width="100%"
+              // height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
+              className="rounded-2xl min-h-[400px] lg:h-full"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>

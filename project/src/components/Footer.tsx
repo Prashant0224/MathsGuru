@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen, Phone, Mail, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
@@ -26,26 +25,26 @@ const Footer = () => {
               <span className="text-2xl font-bold">MathsGuru</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Empowering students in Mathematics, Science, and Programming with personalized attention 
-              and proven teaching methods. Join hundreds of successful students who have achieved 
+              Empowering students in Mathematics, Science, and Programming with personalized attention
+              and proven teaching methods. Join hundreds of successful students who have achieved
               their academic goals.
             </p>
             <div className="flex space-x-4">
-              <a 
+              <a
                 href="tel:+917879864169"
                 className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors"
                 title="Call Now"
               >
                 <Phone className="h-5 w-5" />
               </a>
-              <a 
+              <a
                 href="mailto:litoriyaprashant4@email.com"
                 className="bg-green-600 hover:bg-green-700 p-2 rounded-full transition-colors"
                 title="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
-              <a 
+              <a
                 href="https://wa.me/917879864169"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,7 +61,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('home')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
@@ -70,7 +69,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('about')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
@@ -78,7 +77,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('subjects')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
@@ -86,7 +85,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('testimonials')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
@@ -94,7 +93,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('contact')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >

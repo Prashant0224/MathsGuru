@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X, BookOpen, Phone } from "lucide-react";
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <BookOpen className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-800">MathematicianHub</span>
+            <span className="text-lg sm:text-2xl font-bold text-gray-800">MathematicianHub</span>
           </div>
 
           {/* Desktop Navigation */}
